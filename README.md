@@ -35,6 +35,6 @@ git clone https://github.com/EnDaTeam/EnDa-Console-Application-Package.git
 After installation, you must to import the module
 
 ```bash
-  import CAPP
+import CAPP
 ```
 
