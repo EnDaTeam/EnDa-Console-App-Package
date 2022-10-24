@@ -15,6 +15,8 @@ The story behind this python package was that, EnDaTeam, creates too many consol
 - Gives custom TIPS for users
 - Runs custom commands (Clear Terminal)
 - Works with a lot of colors
+- Show your options to user
+- Install needed modules
 
 
 ## Installation
@@ -35,6 +37,6 @@ git clone https://github.com/EnDaTeam/EnDa-Console-Application-Package.git
 After installation, you must to import the module
 
 ```bash
-import CAPP
+  import CAPP
 ```
 
