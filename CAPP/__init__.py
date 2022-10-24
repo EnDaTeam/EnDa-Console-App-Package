@@ -4,6 +4,12 @@
 from Dependencies import *
 from Commands import *
 
+#Creates needed values
+global space
+global EnDaCappCredits
+EnDaCappCredits = "Coded by EnDaTeam 2022"
+space = " "
+
 #Define an enter function (space)
 def enter(lines=1):
     for i in range(lines):
@@ -43,7 +49,6 @@ def error(string,exiting=0,option=1):
 |  __||    /|    /| | | |    / 
 | |___| |\ \| |\ \\ \_/ / |\ \ 
 \____/\_| \_\_| \_|\___/\_| \_|
-
             """)
             print(Fore.LIGHTRED_EX + "\t" + str(string) + Fore.RESET)
         elif int(option) == 3:
@@ -71,3 +76,10 @@ def bannerValue(start,end):
     else:
         value = random.randint(start,end)
     return value
+
+#Define an options list for generating options
+def options(listOptions:list):
+    count = 0
+    for i in listOptions:
+        count = count + 1
+        print(Fore.MAGENTA + f"[{count}]" + Fore.WHITE + " >> " + str(i))
