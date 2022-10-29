@@ -190,7 +190,7 @@ def tip(text:str,option:int=0,slowprinting:bool=False):
 
 #Define a banner generator
 def banner(text:str,font:str="standard"):
-    asciiArt(text,font)
+    return asciiArt(text,font)
 
 #Define an outro for the program
 def outro(text:str,option:int=1,slowPrinting:bool=0,times:float=3,exiting:bool=1):
