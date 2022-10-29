@@ -1,0 +1,9 @@
+#The list of all features from the EnDa CAPP Package
+
+[01] >> Clear terminal (Clears the console)
+[02] >> Enter (Press enter in console ending lines)
+[03] >> Slow print (Prints a text with slowness)
+[04] >> Custom command executor (executes specific commands for every operationg system)
+[05] >> Error (outut the error with customizations)
+[06] >> Banner (Generates an ascii art, text to art)
+[07] >> Tip (prints a tip for user)
