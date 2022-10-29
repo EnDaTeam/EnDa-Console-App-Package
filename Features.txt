@@ -7,3 +7,4 @@
 [05] >> Error (outut the error with customizations)
 [06] >> Banner (Generates an ascii art, text to art)
 [07] >> Tip (prints a tip for user)
+[08] >> Outro (gives the last message and exit the program)

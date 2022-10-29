@@ -19,13 +19,14 @@ The story behind this python package was that, EnDaTeam, creates too many consol
 - Install needed modules
 - Print with slowness
 - Creates custom AsciiArt (Banners)
+- Prints an outro (to exit)
 
 ## Installation
 
 1) Install the package by github as zip
 
 ```bash
-git clone https://github.com/EnDaTeam/EnDa-Console-App-Package.git
+git clone https://github.com/EnDaTeam/EnDa-Console-Application-Package.git
 ```
     
 2) Find the path of the libraries are (installed by python)

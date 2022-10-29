@@ -191,3 +191,27 @@ def tip(text:str,option:int=0,slowprinting:bool=False):
 #Define a banner generator
 def banner(text:str,font:str="standard"):
     asciiArt(text,font)
+
+#Define an outro for the program
+def outro(text:str,option:int=1,slowPrinting:bool=0,times:float=3,exiting:bool=1):
+    try:
+        int(option)
+    except:
+        raise ValueError("The option from outro is not avaible! [ENDA CAPP]")
+    if slowPrinting:
+        if int(option) == 1:
+            slowPrint(Fore.BLUE + "[*] " + str(text) + Fore.RESET)
+        elif int(option) == 2:
+            slowPrint(Fore.MAGENTA + str(text) + Fore.RESET)
+    else:
+        if int(option) == 1:
+            print(Fore.BLUE + "[*] " + str(text) + Fore.RESET)
+        elif int(option) == 2:
+            print(Fore.MAGENTA + str(text) + Fore.RESET)
+    if int(option) not in (1,2):
+        raise ValueError("The value of option is not avaible on outro! [ENDA CAPP]")
+    if exiting:
+        print(Fore.RESET)
+        time.sleep(times)
+        exit()
+        
