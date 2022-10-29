@@ -23,16 +23,11 @@ The story behind this python package was that, EnDaTeam, creates too many consol
 
 ## Installation
 
-1) Install the package by github as zip
+Install the package by github as zip
 
 ```bash
-git clone https://github.com/EnDaTeam/EnDa-Console-Application-Package.git
+pip install CAPP / pip3 install CAPP
 ```
-    
-2) Find the path of the libraries are (installed by python)
-
-3) Copy the folder CAPP there
-
 
 ## Using
 

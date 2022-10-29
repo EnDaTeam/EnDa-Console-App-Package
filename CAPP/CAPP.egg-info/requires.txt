@@ -1,0 +1,6 @@
+os
+colorama
+pystyle
+sys
+time
+pyfiglet
