@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: CAPP
+Version: 0.0
+Summary: Console Application Creator
+Author: EnDaTeam
+License: MIT License
+        
+        Copyright (c) 2022 EnDaTeam
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/EnDaTeam/EnDa-Console-App-Package
+Keywords: console,application,terminal
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License
+
+# EnDa Console Application Package (CAPP)
+The story behind this python package was that, EnDaTeam, creates too many console applications. We were annoyed about writing same functions again. We are created this package to help us and you, python console applications developers.
+
+
+
+## Authors
+
+- [@WBTER](https://www.github.com/WBTER)
+- [@EnDaTeam](https://www.github.com/EnDaTeam)
+
+
+## Features
+
+- Creates custom ERROR outputs
+- Gives custom TIPS for users
+- Runs custom commands (Clear Terminal)
+- Works with a lot of colors
+- Show your options to user
+- Install needed modules
+- Print with slowness
+- Creates custom AsciiArt (Banners)
+- Prints an outro (to exit)
+
+## Installation
+
+Install the package by github as zip
+
+```bash
+pip install CAPP / pip3 install CAPP
+```
+
+## Using
+
+After installation, you must to import the module
+
+```bash
+  import CAPP
+```
+

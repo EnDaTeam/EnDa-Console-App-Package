@@ -1,59 +1,29 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "CAPP"
-description = "Create custom Console Applications!"
+version = "0.0"
+description = "Console Application Creator"
 readme = "README.md"
-requires-python = ">=3.0.*"
-authors = [
-    { name = "WBTER", company = "EnDaTeam" },
-]
-keywords = [
-    "ascii",
-    "console",
-    "consoleapp",
-    "Applications",
-    "terminal",
-    "text",
-    "asciiart",
-    "banner",
-]
+authors = [{ name = "EnDaTeam"}]
+license = { file = "License" }
 classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Environment :: Console",
-    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: Implementation :: CPython",
-    "Programming Language :: Python :: Implementation :: PyPy",
-    "Topic :: Terminals",
 ]
-dynamic = [
-    "version",
+keywords = ["console", "application", "terminal"]
+dependencies = [
+    "colorama >= 0.4.6",
+    " pystyle >= 2.0",
+    "pyfiglet >= 0.7"
 ]
+requires-python = ">=3.0"
 
 [project.urls]
 Homepage = "https://github.com/EnDaTeam/EnDa-Console-App-Package"
 
-[tool.hatch.version]
-path = "CAPP/__init__.py"
-
-[tool.hatch.build.targets.sdist]
-include = [
-    "/CAPP",
-    "/Features.txt",
-    "/License",
-]
-
-[tool.hatch.build.targets.wheel]
-include = [
-    "/CAPP/*",
-]
+[project.scripts]
+realpython = "reader.__main__:main"
